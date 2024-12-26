@@ -3,8 +3,8 @@
 
 <h3>To Do: (@todos.Count(todo => !todo.IsDone))</h3>
 
-<input @bind="newTodo" />
-<button @onclick="AddTodo">Add ToDo Item</button>
+<input @bind="newTodo" style="height: 40px; vertical-align: top;"/>
+<button @onclick="AddTodo" class="btn btn-primary" style="height: 40px; vertical-align: top;">Add ToDo Item</button>
 <br>
 <br>
 <ul>
